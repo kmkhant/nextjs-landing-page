@@ -8,6 +8,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@next/env": "^12.0.7",
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
@@ -34,7 +35,6 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "next-sitemap": "^1.2.4",
-    "@next/env": "^12.0.7"
+    "next-sitemap": "^1.2.4"
   }
 }
