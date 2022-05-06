@@ -1,0 +1,25 @@
+/* width */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(14, 14, 14); 
+  border-radius: 20px;
+}
+ 
